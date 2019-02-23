@@ -1,64 +1,170 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
+
 header {
-  height: 50px;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  background-color:darkkhaki;
-  line-height: 50px;
-  z-index: 1;
+    position: fixed;
+    display: flex;
+    z-index: 10;
 }
 
+h1 {
+    font-size: 55px;
+    background-color: #00E676;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    /*    margin-right: 640px;*/
+    padding-right: 50px;
+    border-bottom-right-radius: 75px;
+    float: left;
+}
+
+
+
 header ul {
-  float: right;
-  margin: 0;
-  padding: 0;
+    float: right;
+    margin: 0;
+    padding: 0;
+    background-color: #00E676;
+
 }
 
 header ul li {
-  float: left;
-  margin: 0;
-  padding: 0;
-  list-style: none;
+    float: left;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-right: 83px;
+    padding-left: 83.7px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 22px;
 }
 
 header ul li a {
-  font-weight: 600;
-  padding: 10px;
-  text-decoration: none;
-  color: #000;
+    font-weight: 600;
+    padding: 10px;
+    text-decoration: none;
+    color: #000;
+    transition: 0.8s;
 }
 
-header ul li a:hover {
-  color: #ddd;
-  text-decoration: none;
+
+a:hover {
+    background-color: chocolate;
+    color: blue;
+    border-radius: 20px;
 }
 
-.top-contents
-{
-  height: 100px;
-  padding-top: 150px;
-  padding-bottom: 100px;
-  background-color: #666;
-  text-align: center;
+.main-visual {
+    width: 100%;
+    height: 700px;
+    background: #fff url(room2.png) 0 0 no-repeat;
+    background-size: cover;
+    margin-bottom: 32px;
 }
 
-.contents{
-  height: 550px;
-  background-color: #f0f8ff;
-  padding-top: 50px;
-  margin-top: 10px;
-  text-align: center;
+h2 {
+    width: 300px;
+    font-size: 35px;
+    padding-left: 60px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-left: -20px;
+    margin-top: -31px;
+    background-color: #2E7D32;
+    position: absolute;
+    z-index: 2;
 }
 
-.footer{
-  height: 300px;
-  background-color: #666;
-  padding-top: 50px;
-  margin-top: 10px;
-  text-align: center;
+p {
+    width: 950px;
+    margin: 0 auto;
+    padding: 50px;
+    font-size: 25px;
+}
+
+.p1 {
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 200px;
+    background-color: #C8E6C9;
+}
+
+.p2 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #00BFA5;
+}
+
+.p3 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: burlywood;
+}
+
+.dot {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    margin-left: 270px;
+    margin-top: -50px;
+    position: absolute;
+    color: blueviolet;
+    background-color: currentColor;
+    z-index: 2;
+}
+
+.dot2 {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-left: -90px;
+    margin-top: -50px;
+    position: absolute;
+    color: yellowgreen;
+    background-color: currentColor;
+    z-index: 2;
+}
+
+.dot3 {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-left: 300px;
+    margin-top: -50px;
+    position: absolute;
+    color: palevioletred;
+    background-color: currentColor;
+    z-index: 2;
+}
+
+.right-box {
+    float: left;
+    width: 288px;
+    margin-left: 18px;
+}
+
+.left-box {
+    float: right;
+    width: 288px;
+    margin-right: 18px;
+}
+
+.contents {
+    height: 550px;
+    background-color: #f0f8ff;
+    padding-top: 50px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+img {
+    width: 250px;
+    float: right;
+    margin-top: 60px;
+    margin-right: 40px;
 }
