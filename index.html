@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <title>gameboys</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="swiper.min.css">
     <script src="https//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 
 
@@ -25,7 +26,7 @@
 
     <div class="main-visual"></div>
 
-    <img src="IMG_1518.JPG" alt="">
+    
 
     <div class="container">
         <div class="right-box">
@@ -37,7 +38,54 @@
         <div class="p1">
 
             <p>このグループは中高生が集まって遊ぶグループです。主にwiiUやボードゲームなどをします。WiiUではマイクラやスマブラをやってます。</p>
+            
+            <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="imgBx">
+                    <img src="IMG_1537_0.JPG" width="9px" height="300px" alt="">
+                </div>
+                
+            </div>
+            <div class="swiper-slide">
+                <div class="imgBx">
+                    <img src="IMG_1538_1.JPG" width="9px" height="300px" alt="">
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="imgBx">
+                    <img src="IMG_1539_2.JPG" width="9px" height="300px" alt="">
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="imgBx">
+                    <img src="IMG_1540_3.JPG" width="9px" height="320px" alt="">
+                </div>
+            </div>
         </div>
+    </div>
+    
+    <script type="text/javascript" src="swiper.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            effect: 'coverflow',
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: 'auto',
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+            },
+        });
+    </script>
+        </div>
+        
         <div class="left-box">
             <div class="contents2">
                 <h2>Rule</h2>
@@ -45,7 +93,7 @@
             <div class="dot2"></div>
         </div>
         <div class="p2">
-            <p>・暴言吐かない</p>
+            <p>・〇ね・クソ等言わない</p>
             <p>・使い終わったものはしまう</p>
         </div>
         <div class="right-box">

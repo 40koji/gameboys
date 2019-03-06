@@ -11,7 +11,7 @@ header {
 
 h1 {
     font-size: 55px;
-    background-color: #00E676;
+    background-color: #a4ca68;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 10px;
@@ -27,7 +27,7 @@ header ul {
     float: right;
     margin: 0;
     padding: 0;
-    background-color: #00E676;
+    background-color: #a4ca68;
 
 }
 
@@ -36,8 +36,8 @@ header ul li {
     margin: 0;
     padding: 0;
     list-style: none;
-    padding-right: 83px;
-    padding-left: 83.7px;
+    padding-right: 107px;
+    padding-left: 109.8px;
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 22px;
@@ -53,8 +53,8 @@ header ul li a {
 
 
 a:hover {
-    background-color: chocolate;
-    color: blue;
+    background-color: #1eae98;
+    color: #c6ea8d;
     border-radius: 20px;
 }
 
@@ -90,20 +90,19 @@ p {
 
     padding-top: 100px;
     padding-bottom: 100px;
-    padding-right: 200px;
-    background-color: #C8E6C9;
+    background-color:#CEE2C5;
 }
 
 .p2 {
     padding-top: 100px;
     padding-bottom: 100px;
-    background-color: #00BFA5;
+    background-color: #c7dc68;
 }
 
 .p3 {
     padding-top: 100px;
     padding-bottom: 100px;
-    background-color: burlywood;
+    background-color: #c9da9f;
 }
 
 .dot {
@@ -113,7 +112,7 @@ p {
     margin-left: 270px;
     margin-top: -50px;
     position: absolute;
-    color: blueviolet;
+    color: #00a9a7;
     background-color: currentColor;
     z-index: 2;
 }
@@ -125,7 +124,7 @@ p {
     margin-left: -90px;
     margin-top: -50px;
     position: absolute;
-    color: yellowgreen;
+    color: #f7cb4a;
     background-color: currentColor;
     z-index: 2;
 }
@@ -137,7 +136,7 @@ p {
     margin-left: 300px;
     margin-top: -50px;
     position: absolute;
-    color: palevioletred;
+    color: #96d4d8;
     background-color: currentColor;
     z-index: 2;
 }
@@ -162,9 +161,19 @@ p {
     text-align: center;
 }
 
-img {
-    width: 250px;
-    float: right;
-    margin-top: 60px;
-    margin-right: 40px;
+
+.swiper-container {
+  width: 40%;
+  padding-top: 50px;
+  padding-bottom: 300px;
+  margin-top: 100px;
+}
+
+.swiper-slide .imgBx {
+  width: 100%;
+  overflow: hidden;
+}
+
+.swiper-slide .imgBx img {
+  width: 100%;
 }
